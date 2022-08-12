@@ -11,6 +11,7 @@
     "test": "pnpm -C test run test",
     "core-dev": "pnpm -C core run build",
     "example-vanilla-dev": "pnpm -C example/vanilla run dev",
+    "example-vanilla-build": "pnpm -C example/vanilla run build",
     "example-vue-dev": "pnpm -C example/vue run dev",
     "coverage": "vitest run --coverage",
     "lint": "eslint .",

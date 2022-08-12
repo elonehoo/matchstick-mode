@@ -6,7 +6,8 @@
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "vite --port 3333 --open"
+    "dev": "vite --port 3333 --open",
+    "build":"vite build"
   },
   "devDependencies": {
     "@elonehoo/matchstick-mode":"workspace:*"
