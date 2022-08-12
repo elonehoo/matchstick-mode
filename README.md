@@ -23,7 +23,6 @@ export * from '@elonehoo/matchstick-mode'
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>🌒 toggles dark mode... Really? Try it</title>
     <meta charset="utf-8" />
     <script type="module" src="./main.ts"></script>
   </head>
