@@ -1,33 +1,23 @@
-<div align="center">
-  <img src="./public/logo.svg" width="100px" height="100px" />
-</div>
+# matchstick-mode
 
-<h1 align="center">Titem</h1>
+Dark mode like lighting a match
 
-<p align="center">
-  <em>Starter template for TypeScript library</em>
-</p>
+## usage
 
-If you want a TypeScript package that is [like this](https://www.npmjs.com/search?q=%40titem), then this repository has everything you need.
-
-## Features
-
-- ⚡️ [Vite 3](https://github.com/vitejs/vite), [pnpm](https://github.com/pnpm/pnpm) - born with fastness
-
-- ✅ Use [Vitest](https://github.com/vitest-dev/vitest) for unit and components testings
-
-- 🦾 TypeScript, of course
-
-## Try it now!
-
-[Create a repo from this template on GitHub](https://github.com/elonehoo/titem/generate).
-
-### Clone to local
-
-If you prefer to do it manually with the cleaner git history
-
-```bash
-npx degit elonehoo/titem my-titem-app
-cd my-titem-app
-pnpm install # If you don't have pnpm installed, run: npm install -g pnpm
+```typescript
+// main.ts
+export * from '@elonehoo/matchstick-mode'
+```
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>🌒 toggles dark mode... Really? Try it</title>
+    <meta charset="utf-8" />
+    <script type="module" src="./main.ts"></script>
+  </head>
+  <body>
+      <dark-light-mode />
+  </body>
+</html>
 ```
