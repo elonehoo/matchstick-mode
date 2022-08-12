@@ -4,14 +4,14 @@
   "description": "Starter template for TypeScript library",
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "release": "bumpp package.json core/package.json --commit --push --tag && pnpm -r publish --access public",
     "typeCheck": "tsc --noEmit",
     "test": "pnpm -C test run test",
-    "core-dev":"pnpm -C core run build",
-    "example-vanilla-dev":"pnpm -C example/vanilla run dev",
-    "example-vue-dev":"pnpm -C example/vue run dev",
+    "core-dev": "pnpm -C core run build",
+    "example-vanilla-dev": "pnpm -C example/vanilla run dev",
+    "example-vue-dev": "pnpm -C example/vue run dev",
     "coverage": "vitest run --coverage",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
