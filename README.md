@@ -2,6 +2,17 @@
 
 Dark mode like lighting a match
 
+## install
+
+```bash
+# npm
+npm install @elonehoo/matchstick-mode
+#yarn
+yarn add @elonehoo/matchstick-mode
+#pnpm
+pnpm install @elonehoo/matchstick-mode
+```
+
 ## usage
 
 ```typescript
