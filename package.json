@@ -1,10 +1,10 @@
 {
   "name": "@elonehoo/monorepo",
-  "private": "true",
+  "private": true,
   "description": "Starter template for TypeScript library",
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "scripts": {
 
     "release": "bumpp package.json core/package.json --commit --push --tag && pnpm -r publish --access public",

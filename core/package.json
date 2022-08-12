@@ -1,6 +1,6 @@
 {
   "name": "@elonehoo/matchstick-mode",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "type": "module",
   "description": "Dark mode like lighting a match",
   "author": "Elone Hoo <huchengyea@163.com>",

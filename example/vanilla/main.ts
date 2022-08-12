@@ -1,1 +1,1 @@
-import DarkLightMode from '@elonehoo/matchstick-mode'
+export * from '@elonehoo/matchstick-mode'
