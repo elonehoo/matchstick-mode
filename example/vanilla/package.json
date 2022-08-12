@@ -1,15 +1,15 @@
 {
-  "name": "@elonehoo/matchstick-mode-test",
+  "name": "@elonehoo/matchstick-mode-example-vanilla",
   "private": true,
   "version": "1.0.0",
+  "type": "module",
   "description": "Starter template for TypeScript library",
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
   "scripts": {
-    "test": "vitest"
+    "dev": "vite --port 3333 --open"
   },
   "devDependencies": {
-    "@elonehoo/matchstick-mode":"workspace:*",
-    "vitest":"0.21.1"
+    "@elonehoo/matchstick-mode":"workspace:*"
   }
 }
