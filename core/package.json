@@ -1,0 +1,16 @@
+{
+  "name": "@titem/core",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Starter template for TypeScript library",
+  "author": "Elone Hoo <huchengyea@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && tsup",
+    "prepublishOnly": "pnpm run build",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "tsup": "6.2.2"
+  }
+}
