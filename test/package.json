@@ -1,5 +1,5 @@
 {
-  "name": "@titem/test",
+  "name": "@elonehoo/matchstick-mode",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "test": "vitest"
   },
   "devDependencies": {
-    "@titem/core":"workspace:*",
+    "@elonehoo/matchstick-mode":"workspace:*",
     "vitest":"0.21.1"
   }
 }
