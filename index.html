@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>matchstick mode</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <style>
+      main,
+      aside {
+        max-width: 50em;
+        margin: auto;
+      }
+      aside {
+        position: relative;
+      }
+      dark-light-mode {
+        position: absolute;
+        right: 0;
+        padding: 1rem;
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index.8ab43cb5.js"></script>
+  </head>
+  <body>
+    <aside>
+      <dark-light-mode />
+    </aside>
+    <main>
+      <h1>Introducing the CSS Cascade</h1>
+      <p>
+        The cascade is an algorithm that defines how user agents combine property values originating from different sources.
+        The cascade defines the origin and layer that takes precedence when declarations in more than one origin or cascade layer set a value for a property on an element.
+      </p>
+      <p>
+        The cascade lies at the core of CSS, as emphasized by the name: Cascading Style Sheets.
+        When a selector matches an element, the property value from the origin with the highest precedence gets applied,
+        even if the selector from a lower precedence origin or layer has greater specificity.
+      </p>
+      <p>
+        This article explains what the cascade is and the order in which CSS declarations cascade,
+        covering cascade layers and origin type.
+        Understanding origin precedence is key to understanding the cascade.
+      </p>
+      <h2>Origin types</h2>
+      <p>The CSS cascade algorithm's job is to select CSS declarations in order to determine the correct values for CSS properties.
+        CSS declarations come from different origin types: User-agent stylesheets, Author stylesheets, and User stylesheets.
+      </p>
+      <p>
+        Though style sheets come from these different origins and can be within different layers in each of these origins,
+        they overlap in scope; to make this work, the cascade algorithm defines how they interact. Before addressing the interactions,
+        let's define some terms:
+      </p>
+      <h2>User-agent stylesheets</h2>
+      <p>
+        User-agent, or browsers, have basic style sheets that give default styles to any document.
+        These style sheets are named user-agent stylesheets. Most browsers use actual stylesheets for this purpose,
+        while others simulate them in code. The end result is the same.
+      </p>
+      <p>Some browsers let users modify the user-agent stylesheet, but this is rare and not something that can be controlled.</p>
+      <p>
+        Although some constraints on user-agent stylesheets are set by the HTML specification,
+        browsers have a lot of latitude: that means some differences exist between browsers.
+        To simplify the development process, Web developers may use a CSS reset stylesheet,
+        such as normalize.css,
+        which sets common properties values to a known state for all browsers before beginning to make alterations to suit their specific needs.
+      </p>
+      <p>
+        Unless the user-agent stylesheet includes an !important next to a property,
+        making it "important", styles declared by author styles, including a reset style sheet,
+        take precedence over the user-agent styles, regardless of the specificity of the associated selector.
+      </p>
+      <h2>Author stylesheets</h2>
+      <p>
+        Author stylesheets are the most common type of style sheet; these are the styles written by web developers.
+        These styles can reset user-agent styles, as noted above,
+        and define the styles for the design of a given web page or application.
+        The author, or web developer, defines the styles for the document using one or more linked or imported stylesheets,
+        style blocks, and inline styles defined with the style attribute.
+        These author styles define the look and feel of the website — its theme.
+      </p>
+    </main>
+  </body>
+</html>
