@@ -6,7 +6,7 @@
     "dev": "vite --port 3333 --open"
   },
   "dependencies": {
-    "vue": "3.2.39"
+    "vue": "3.2.45"
   },
   "devDependencies": {
     "@elonehoo/matchstick-mode":"workspace:*",
